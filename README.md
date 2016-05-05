@@ -11,37 +11,28 @@ The code is somewhat buggy and crashes can randomly occur.
 
 ===Plugins===
 Requirements:
-
 - IniFiles.cleo
 	Used for reading and writing to ini files.
-
 - GxtHook.cleo
 	Used for displaying text using the GXT file in the CLEO_TEXT directory.
-
 Optional:
-
 - BC7ModExtra.cleo
-	Addition to the BC7MOD which fix the well known mouse bug on Windows Vista and above and and toggable option to skip the intro movies.	
-	Unfortunately the source code is also lost, however the use of this plugin is optional.
+	Addition to the BC7MOD which fix the well known mouse bug on Windows Vista and above and and toggable option to skip the intro movies. Unfortunately the source code is also lost, however the use of this plugin is optional.
 
 IniFiles.cleo and GxtHook.cleo can be found in the CLEO SDK. 
 BC7ModExtra.cleo is included, but does not have to be used.
 
 ===Contents===
-
 - bc7mod.txt
   CLEO_TEXT
 	- BC7MOD.fxt
-- 
 - vehicles.ini
-
 - Wearable.ini
 - BC7ModExtra.cleo
 
 Note: after first time use a BC7MOD_config.ini will be created in the CLEO root directory.
 
 ===changelog===
-
 - Fully rewritten from scratch.
 - One easy to use menu structure design.
 - Change Hair (new)
