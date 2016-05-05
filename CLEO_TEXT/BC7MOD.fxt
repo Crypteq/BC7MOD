@@ -1,0 +1,848 @@
+########################################################################
+#                           BC7MOD Version 5                           # 
+#             This file contains the text used in the mod.             # 
+#                                                                      # 
+#                                                                      # 
+#    BC7MOD is a CLEO modification for Grand Theft Auto San Andreas    #  
+#----------------------------------------------------------------------#  
+#  This mod is created by Crypteq (Aka BC7)                            #  
+#                                                                      #  
+#  Mod Information:                                                    #  
+#  -----------------------------------                                 #  
+#  Author: Crypteq                                                     #  
+#  Default Language: English                                   	       #  
+#  Version: 5                                                          #  
+#  Cleo Version: 4                                                     #  
+#  Compatible with: SA Version: 1.0                                    #  
+#                                                                      #  
+#  License information:                                                #  
+#  --------------------------------------------------------------------#  
+#  This modification is supplied to you by Crypteq (aka BC7) in        #  
+#  consideration of your agreement to the following terms,             #  
+#  and your use, installation, modification or redistribution          #  
+#  of this modification constitutes acceptance of these terms.         #  
+#                                                                      #  
+#  If you do not agree with these terms, please do not modify          #  
+#  or redistribute this modification.                                  #  
+#                                                                      #  
+#  In consideration of your agreement to abide by the following terms, #  
+#  and subject to these terms, Crypteq grants you a personal,          #  
+#  non-exclusive license, to use, reproduce, modify and redistribute   #  
+#  the modification, with or without modifications, in source and/or   #  
+#  binary forms; provided that if you redistribute the modification    #  
+#  in its entirety and without modifications, you must retain this     #  
+#  notice and the following text and disclaimers in all such           #  
+#  redistributions of the modification, and that in all cases          #  
+#  attribution of Crypteq as the original author of the                #  
+#  source code shall be included in all such resulting modifications   #  
+#  or distributions.      											   #
+#                                               					   #
+########################################################################                                                                        
+                                                                       
+
+#[GENERAL USED]#
+BEXIT Exit
+BNEXT Next
+BNEP Next page
+BBACK Back
+BPREV Previous
+BPRP Previous page
+BENAB Enabled
+BDISA Disabled
+MOSEL Selected
+GMIV Increase
+GMDV Decrease
+NOTS Not supported
+VAMED Use left and right arrow key to change value. ~N~~k~~PED_SPRINT~ Select~N~~k~~VEHICLE_ENTER_EXIT~ Quit
+CDAY Yes
+CDAN No
+PVAL _ ~1~%
+GEUS Save
+GEUC Cancel
+
+#[NOT IMPLEMENTED MESSAGE] - DEBUG#
+NIMET Not Implemented
+NIME1 Sorry, this option is currently not available.
+
+#[ERROR MESSAGE]#
+ERMET Error
+ERME1 Something went wrong, please report this error
+ERME2 and what you where doing to the author of this mod.
+ERME3 I'll will send you back to the menu where you were
+
+#[FIRST TIME MENU]#
+BNGT Welcome to the final version of BC7Mod (~G~V5~W~)
+BFWT1 Read the readme of this mod before using!
+BFWT2 For more mods go to ~G~gtaforum.nl~W~!
+BFWT3 Changelog
+BFWT4 Special thanks to...
+BFWT5 License
+BFWT6 Play!
+
+
+#[LICENSE MESSAGE]#
+LICMT License
+LICM1 This modification is supplied to you by Crypteq (BC7) in
+LICM2 consideration of your agreement to the following terms,
+LICM3 and your use, installation, modification or redistribution
+LICM4 of this modification constitutes acceptance of these terms.
+LICM5 If you do not agree with these terms, please do not modify
+LICM6 or redistribute this modification.
+
+LICM7 In consideration of your agreement to abide by the following terms
+LICM8 and subject to these terms, Crypteq grants you a personal,
+LICM9 non-exclusive license, to use, reproduce, modify and redistribute
+LICM10 the modification, with or without modifications, in source and/or
+LICM11 binary forms; provided that if you redistribute the modification
+LICM11 in its entirety and without modifications, you must retain thi
+LICM12 notice and the following text and disclaimers in all such
+LICM13 redistributions of the modification, and that in all cases
+LICM14 attribution of Crypteq as the original author of the source code
+LICM15 shall be included in all such resulting modifications or distributions.
+
+#[CHANGELOG MESSAGE]#
+BCHLT Changelog
+BCHL1 -Fully rewritten
+BCHL2 -Fixed modshop crash/savegame corruption
+BCHL3 -Fixed most random crashes
+BCHL4 -Change to default skin when mission begins
+BCHL5 -All options are available from one menu
+BCHL6 -Better menu structure
+BCHL7 -Godmode (player) and Godmode (car) are now separated
+BCHL8 -Added gang management
+
+#[CREDITS]#
+BTTT Thanks to
+BTT1 Seemann: Cleo 3 and 4 library
+BTT2 UNKNOWNN
+BTT3 UNKNOWNN
+BTT4 UNKNOWNN
+BTT5 UNKNOWNN
+BTT6 UNKNOWNN
+BTT7 ZAZ: Ideas: Interior teleporter and other mission select.
+BTT8 http://gtaforum.nl - http://gtagames.nl
+
+#[MAIN MOD MENU]#
+BMTitle BC7MOD
+BMAIN_1 Player
+BMAIN_2 Game
+BMAIN_3 Missions
+BMAIN_4 Miscellaneous
+BMAIN_5 People
+BMAIN_6 Vehicle
+BMAIN_7 Weapons
+BMAIN_8 Settings
+
+#[MAIN MOD MENU > PLAYER MENU]#
+BPLT Playermenu
+BPLAY_1 Change skin
+BPLAY_2 Change apearance
+BPLAY_3 Edit statistics
+BPLAY_4 Godmode
+BPLAY_5 Gimme money!
+
+PGODE Godmode enabled!
+PGODD Godmode disabled!
+PBIKE Bikemode enabled!
+PBIKD Bikemode disabled!
+
+#[MAIN MOD MENU > GAME MENU]#
+BGOT Game tools
+BGO0 Save Game
+BGO1 Change time
+BGO2 Change weather
+BGO3 Gamespeed
+BGO4 Population
+BGO5 Gravity
+
+#[MAIN MOD MENU > GAME MENU > TIME MENU]#
+BTIT Change time
+BTI0 Time: ~1~:~1~
+BTI1 Add one hour
+BTI2 Add twelve hours
+BTI3 Subtract one hour
+
+#[MAIN MOD MENU > GAME MENU > GAME SPEED]#
+BGST Game speed
+BGS1 Speed: ~1~%
+BGS2 Faster
+BGS3 Slower
+BGS4 Default speed
+
+###PLAYER_SKIN###
+BPSMT Player Skin categories
+BPSM1 Citizens
+BPSM2 Gang members
+BPSM3 Cops
+BPSM4 Special skins
+BPSM5 Default skin
+BPSN Next skin
+BPSP Previous skin
+
+###PLAYER_APPEARANCE###
+CPAT Change appearance
+CPA1 Hair
+CPA2 Clothes
+CPA3 Accessories
+CPA4 Tattoo
+
+###HAIR###
+CPHT Change haircut
+
+###CLOTHES####
+CLCT Clothes
+CLC1 Torso
+CLC2 Legs
+CLC3 Shoes
+CLC4 Hats
+CLC5 Special
+CLC6 Remove Clothes
+
+###REMOVE CLOTHES###
+RCE1 Remove Torso
+RCE2 Remove Legs
+RCE3 Remove Shoes
+RCE4 Remove Hats
+RCE5 Remove Special
+
+###ACCESSORIES###
+ACCT Accessories
+ACC1 Glasses
+ACC2 Watches
+ACC3 Necklaces
+ACCR Remove accessories
+
+###REMOVE ACCESSORIES###
+RACT Remove Accessories
+RAC1 Remove Glasses
+RAC2 Remove Watches
+RAC3 Remove Necklaces
+
+
+###TATTOS###
+TACT Tattoo
+TAC1 Lower left arm
+TAC2 Upper Left arm
+TAC3 Upper right arm
+TAC4 Lower right arm
+TAC5 Back top
+TAC6 Left chest
+TAC7 Right chest
+TAC8 Stomach
+TAC9 Lower back
+TAC10 Remove tattoo
+
+###EDIT_STATISTICS###
+EPST Statistics
+EPS1 Respect
+EPS2 Stamina
+EPS3 Muscle
+EPS4 Fat
+EPS5 Sex Appeal
+
+###RESPECT_MENU###
+RSMV Respect: ~1~%
+
+###STAMINA_MENU###
+SMMV Stamina: ~1~%
+
+###MUSCLE_MENU###
+MUMV Muscle: ~1~%
+
+###FAT_MENU###
+FATV Fat: ~1~%
+
+###SEX_APPEAL_MENU###
+SEXV Sex Appeal: ~1~%
+
+###SPECIAL_ACTOR_NAMES###
+BSAT Special skins
+BSA1 Sweet
+BSA2 Kendel
+BSA3 Ryder
+BSA4 Big Smoke
+BSA5 Cesar
+BSA6 Emmet
+BSA7 Hernandes
+BSA8 Pulaski
+BSA9 Tenpeni
+BSA10 Truth
+BSA11 Wu Zi
+BSA12 Zero
+BSA13 Torino
+BSA14 T Bone
+BSA15 Ken Rosenberg
+BSA16 Mad Dog
+BSA17 Jizzy
+BSA18 Jethro
+BSA19 Dwayne
+BSA20 Bigbear
+BSA21 Andre
+BSA22 OG Loc
+BSA23 Suzie
+BSA24 Sindaco
+BSA25 Kent Paul
+BSA26 Forelli
+BSA27 Mechanic
+BSA28 Catalina
+BSA29 Claude
+
+
+###WEATHER###
+BWCT Change weather
+BWC1 Extra Sunny Los Santos
+BWC2 Sunny Los Santos
+BWC3 Extra Sunny Smog Los Santos
+BWC4 Sunny Smog Los Santos
+BWC5 Cloudy Los Santos
+BWC6 Sunny San Fierro
+BWC7 Extra Sunny  San Fierro
+BWC8 Cloudy San Fierro
+BWC9 Rainy San Fierro
+BWC10 Foggy San Fierro
+BWC11 Sunny Las Venturas
+BWC12 Extra Sunny Las Venturas
+BWC13 Cloudy Las Venturas
+BWC14 Extra Sunny Countryside
+BWC15 Sunny Countryside
+BWC16 Cloudy Countryside
+BWC17 Rainy Countryside
+BWC18 Extra Sunny Desert
+BWC19 Sunny Desert
+BWC20 Sandstorm Desert
+BWC21 Underwater
+BWC22 Extracolours 1
+BWC23 Extracolours 2
+
+###GRAVITY_MENU###
+GTIT Gravity editor
+GRL Gravity level: ~1~
+GM1 Gravity: Normal
+GM2 Increase
+GM3 Decrease
+GM4 Extreme gravity
+GM5 No gravity
+GM6 Default gravity
+
+###MISSION_MAINMENU###
+MMMT Mission menu
+MMM1 Freeze mission timer
+MMTS1 Frozen
+MMTS2 Normal
+MMM2 Play a mission
+MMM3 Play a minigame
+
+###VEHICLE_MENU###
+VEHT Vehicle menu
+VEHT0 Invinsible
+VEHT1 Stickey bike
+VEHT2 Drive on water
+VEHT3 Auto-flip
+VEHT4 Spawn vehicle
+VEHT5 Vehicle properties
+VEHT6 Vehicle options
+
+###VEHICLE PROPERTIES###
+VERPT Vehicle properties
+VEPR1 Vehicle customisation
+VEPR2 Vehicle Handling
+
+###VEHICLE_CUSTOMISATION###
+VAPMT Customize vehicle
+VAPM1 Primary color
+VAPM2 Secondary color
+VAPM3 Wheels
+VAPC Use the movement controls to select a color.~N~~k~~PED_SPRINT~ Choose~N~~k~~VEHICLE_ENTER_EXIT~ Back
+
+###VEHICLE_COLOR###
+VECOT Vehicle color
+VECO1 Primary color
+VECO2 Secondary color
+
+###VEHICLE_WHEELS###
+WHEELT Change Wheels
+WHEEL01 Shadow
+WHEEL02 Mega
+WHEEL03 Rimshine
+WHEEL04 Wires
+WHEEL05 Classic
+WHEEL06 Twist
+WHEEL07 Cutter
+WHEEL08 Switch
+WHEEL09 Grove
+WHEEL10 Import
+WHEEL11 Dollar
+WHEEL12 Trance
+WHEEL13 Atomic
+WHEEL14 Ahab
+WHEEL15 Virtual
+WHEEL16 Acces
+
+###HANDLING_MENU###
+HANMT Vehicle handling
+HANM1 Drive Type
+HANM2 Engine Type
+HANM3 ABS Brakes
+HANM4 Vehicle Mass
+HANM5 Drag Multiplier
+HANM6 Traction Multiplier
+HANM7 Traction Loss
+HANM8 Traction Bias
+HANM9 Engine Inertia
+HANM10 Brake Deceleration
+HANM11 Brake Bias
+HANM12 Steering Lock
+HANM13 Suspension Force Level
+HANM14 Suspension Damping Level
+HANM15 Suspension bias between front and rear
+HANM16 Suspension anti-dive multiplier
+HANM17 Suspension upper limit
+HANM18 Suspension lower limit
+HANM19 Suspension Highspeed damping
+HANM20 Collision Damage Multiplier
+
+HAMD4 Mass of the vehicle in kilograms.
+HAMD5 Changes resistance to movement.
+HAMD6 Cornering grip of the vehicle as a multiplier of the tyre surface friction.
+HAMD7 Accelerating/braking grip of the vehicle as a multiplier of the tyre surface friction.
+HAMD8 Ratio of front axle grip to rear axle grip; higher value shifts grip forwards.
+HAMD9 Smooths or sharpens the acceleration curve.
+HAMD10 Overall decelerative force.
+HAMD11 Ratio of braking force of front compared to rear; higher values move bias forward.
+HAMD12 Maximum angle of steering in degrees.
+HAMD13  
+HAMD14 
+HAMD15 Ratio of suspension force to apply at the front compared to the rear.
+HAMD16 Changes the amount of body pitching under braking and acceleration.
+HAMD17 Uppermost movement of wheels in metres.
+HAMD18 Ride height of vehicle in metres.
+HAMD19 Stiffens the dampening strength as speed increases.
+HAMD20 Amount of engine damage vehicle gets from collisions. Higher value means more damage.
+
+
+###DRIVE_TYPE###
+HADT1 Front wheel drive
+HADT2 Rear wheel drive
+HADT3 4 Wheel drive
+
+###ENGINE_TYPE###
+HAET1 Petrol
+HAET2 Diesel
+HAET3 Electric
+
+###HANDLING_OTHER###
+HAOT1 Weight:
+HAOT2 Drag Multiplier:
+HAOT3 Traction Multiplier:
+HAOT4 Traction Loss:
+HAOT5 Traction Bias:
+HAOT6 Engine Inertia:
+HAOT7 Brake Deceleration:
+HAOT8 Brake Bias:
+HAOT9 Steering Lock:
+HAOT10 Suspension Force Level:
+HAOT11 Suspension Damping Level:
+HAOT12 Suspension bias between front and rear:
+HAOT13 Suspension anti-dive multiplier:
+HAOT14 Suspension upper limit:
+HAOT15 Suspension lower limit:
+HAOT16 Suspension Highspeed damping:
+HAOT17 Collision Damge Multiplier:
+
+###VEHICLE_OPTIONS###
+VETT Vehicle options
+VETO1 Engine
+VETO2 Hydraulics
+VETO3 Nitro
+VETO4 Repair vehicle
+VETO5 Lights
+VETO6 Lock
+
+###VEHICLE_LIGHTS###
+VELIT Vehicle Lights
+VELI1 Automatic
+VELI2 Always on
+VALI3 Always off
+
+###VEHICLE_LOCK###
+VELCT Vehicle lock
+VELC1 Lock vehicle
+VELC2 Unlock vehicle
+
+###WEAPON_MENU###
+WEME1 Unlimited ammo
+GEWM1 Melee
+GEWM2 Handguns
+GEWM3 Shotguns
+GEWM4 Sub-machineguns
+GEWM5 Machineguns
+GEWM6 Rifles
+GEWM7 Heavy weapons
+GEWM8 Specials
+GEWM9 Projectiles
+GEWM10 Gifts
+
+####MELEE####
+MEL1 Brass Knuckles
+MEL2 Golf Club
+MEL3 Night Stick
+MEL4 Knife
+MEL5 Baseball Bat
+MEL6 Shovel
+MEL7 Pool cue
+MEL8 Katana
+MEL9 Chainsaw
+
+####HANDGUNS####
+HAG1 Pistol
+HAG2 Silenced Pistol
+HAG3 Desert Eagle
+
+####shotguns####
+SHO1 Shotgun
+SHO2 Sawn Off Shotgun
+SHO3 Combat Shotgun
+
+####sub-machineguns####
+SMG1 Micro Uzi (Mac 10)
+SMG2 MP5
+SMG3 Tec9
+
+####MACHINEGUNS####
+MG1 AK47
+MG2 M4
+
+####RIFLES####
+RIF1 Rifle
+RIF2 Sniper Rifle
+
+####SPECIALS####
+SPEC1 Flame Thrower
+SPEC2 Fire Extinguisher
+SPEC3 Spray Paint
+SPEC4 Camera
+SPEC5 Nightvision Goggles
+SPEC6 Thermal Goggles
+SPEC7 Parachute
+SPEC8 Jetpack
+
+###HEAVY_WEAPOONS###
+HEWE1 RPG
+HEWE2 Missile Launcher
+HEWE3 Minigun
+
+####PROJECTILES###
+PRO1 Grenade
+PRO2 Tear Gas
+PRO3 Molotovs
+PRO4 Sachet Charges
+
+####GIFTS####
+GIF1 Purple Dildo
+GIF2 White Dildo
+GIF3 Long White Dildo
+GIF4 White Dildo 2
+GIF5 Flowers
+GIF6 Cane
+
+####POPULATION_DENSITY####
+POPMT Population
+POPM1 Ghost City
+POPM2 Overpopulation
+POPM3 Default
+
+####SETTINGS####
+SETM Settings
+SETM0 Mod Settings
+SETM1 Hotkeys
+SETM2 Fixes
+
+###MOD_SETTINGS###
+MOSET Mod Settings
+MOSE1 Put player in vehicle after spawn
+            
+####SETTINGS_FIXED####
+SFMT Game fixes
+SFDT Must restart to take effect
+SFM1 Mouse fix
+SFM2 Skip intro
+
+####KEYS MENU####
+KEYM Hotkeys
+KEYMH1 Control 	
+KEYMH2 Alt
+KEYMH3 Shift
+KEYMF1 F1
+KEYMF1 F2
+KEYMF1 F3
+KEYMF1 F4
+KEYMF1 F5
+KEYMF1 F6
+KEYMF1 F7
+KEYMF1 F8
+KEYMF1 F9
+KEYMF1 F10
+KEYMF1 F11
+KEYMF1 F12
+
+####OTHER_MENU####
+TOMT Miscellaneous
+TOM1 Teleportation
+TOM2 Wanted level
+
+####TELEPORT_MENU###
+TELMT Teleport menu
+TELM1 Teleport to marker
+TELM2 Teleport to interior
+TELM3 Saved Teleports
+TELM4 Delete saved teleport
+
+####TELEPORT_DELETE_CONFIRM####
+TODCT Delete location
+TODCQ Are you sure you want to delete this location?
+
+####INTERIOR_TELEPORT_MENU###
+INTT Interior teleporter
+INT1 Johnson house
+INT2 BloodBowl
+INT3 Kickstart
+INT4 Chamal cabine
+INT5 Ammunation 1
+INT6 house 3
+INT7 San Fierro Garage
+INT8 Sweets house
+
+INT9 The Welcome Pump
+INT10 Woozies Apartment
+INT11 Liberty City
+INT12 house 2
+INT13 Big smoke's Crack Palacr
+INT14 Ryders House
+INT15 House 1
+INT16 Pleasures Dome/Jizzy's
+
+INT17 Ammunation 2
+INT18 Burning Desire House
+INT19 Driving School
+INT20 Madd Doggs Mansion
+INT21 Ammunation 3
+INT22 Ammunation 5
+
+INT23 Zero RC Shop
+INT24 Ammunation 4
+INT25 Booth
+INT26 Range
+INT27 House4
+INT28 Colonel Furhberger's
+INT29 Verdant Bluffs Safehouse
+INT30 Andromada cargo hold
+
+INT31 Golden Bed Motel Room
+INT32 RC Battlefield
+INT33 Hashbury house
+INT34 Red Bed Motel Room
+INT35 SF police Department
+INT36 Unused Safe House
+INT37 house 5
+
+INT38 House 6
+INT39 House 7
+INT40 Jefferson Motel
+INT41 Tatoos
+
+###TELEPORT_SAVE###
+TEMST Saved locations
+TEMSE <EMPTY SLOT>
+TEMSB Select a slot to save current location
+TEMSD Select a location to delete
+	   
+####INPUT_FORM_TELEPORT_SAVE####
+IFTTI Save Current Location
+IFTTE Type a name to save for this location:
+IFTIS Save location
+IFTIC Cancel
+IPNV test ~1~
+IFTMB Type a name, Go to save when you are done
+
+###INPUT_FORM_DECIMAL###
+IFDT Type a decimal number:
+IFDMB Fill in a number, select save when you are done
+
+###HOTKEYS_MENU###
+HOMET Hotkeys
+HOMEI Valid keys: [F1-F12] or [Ctrl]+[A-Z] or [0-9]
+HOMEH Press the keys you want to use for this mod
+
+###WANTED_LEVEL###
+WALMT Change Wanted level
+WALMS Wanted level:
+WALMC ~1~/~1~
+WALM1 Increase wanted level
+WALM2 Decrease wanted level
+WALM3 Clear wanted level
+WALM4 Never wanted level
+
+####PEDS_MENU####
+PEDT People Menu
+PED1 Kill nearest
+PED2 Heal nearest
+PED3 Remove weapons from nearest
+PED4 Launch nearest
+PED5 Gang management
+
+###GANG_MANAGE###
+BGAMA Manage gang
+GMST Members: ~1~ / 7
+BGME Manage members
+BGMA Add nearest person to gang
+
+###GANG_MANAGE_MEMBERS###
+GMMT Gang Members
+GMM1 Member ~1~
+
+###GANG_MANAGE_MEMBER###
+GMPT Gang Member
+GMP1 Member ID: ~1~
+GMP2 Health: ~1~
+GMP3 Current Weapon: ~1~
+GMP4 Remove from gang
+GMP5 Heal member
+
+####MISSION_SELECT####
+MSO Mission selector
+MINU Mission: ~1~
+OGV ~R~this is not the original Game-version!
+
+####MISSION_LIST####
+CMS1 Big Smoke
+CMS2 Ryder
+CMS3 Tagging Up Turf
+CMS4 Cleaning The Hood
+CMS5 Drive-Thru
+CMS6 Nines And AK's
+CMS7 Drive-By
+CMS8 Sweet's Girl
+CMS9 Cesar Vialpando
+CMS10 Los Sepulcros
+CMS11 Doberman
+CMS12 Burning Desire
+CMS13 Gray Imports
+CMS14 Home Invasion
+CMS15 Catalyst
+CMS16 Robbing Uncle Sam
+CMS17 OG Loc
+CMS18 Running Dog
+CMS19 Wrong Side of the Tracks
+CMS20 Just Business
+CMS21 Life's a Beach
+CMS22 Madd Dogg's Rhymes
+CMS23 Management Issues
+CMS24 House Party
+CMS25 Race Tournament / 8-track / Dirt Track
+CMS26 Lowrider (High Stakes)
+CMS27 Reuniting The Families
+CMS28 The Green Sabre
+CMS29 Badlands
+CMS30 First Date
+CMS31 Local Liquor Store
+CMS32 Small Town Bank
+CMS33 Tanker Commander
+CMS34 Against All Odds
+CMS35 King in Exile
+CMS36 Body Harvest
+CMS37 Are you going to San Fierro?
+CMS38 Wu Zi Mu / Farewell, My Love...
+CMS39 Wear Flowers In Your Hair
+CMS40 Deconstruction
+CMS41 555 WE TIP
+CMS42 Snail Trail
+CMS43 Mountain Cloud Boys
+CMS44 Ran Fa Li
+CMS45 Lure
+CMS46 Amphibious Assault
+CMS47 The Da Nang Thang
+CMS48 Photo Opportunity
+CMS49 Jizzy
+CMS50 Outrider
+CMS51 Ice Cold Killa
+CMS52 Toreno's Last Flight
+CMS53 Yay Ka-Boom-Boom
+CMS54 Pier 69
+CMS55 T-Bone Mendez
+CMS56 Mike Toreno
+CMS57 Zeroing In
+CMS58 Test Drive
+CMS59 Customs Fast Track
+CMS60 Puncture Wounds
+CMS61 Back to School
+CMS62 Air Raid
+CMS63 Supply Lines...
+CMS64 New Model Army
+CMS65 Monster
+CMS66 Highjack
+CMS67 Interdiction
+CMS68 Verdant Meadows
+CMS69 N.O.E.
+CMS70 Stowaway
+CMS71 Black Project
+CMS72 Green Goo
+CMS73 Learning to Fly
+CMS74 Fender Ketchup
+CMS75 Explosive Situation
+CMS76 You've Had Your Chips
+CMS77 Fish in a Barrel
+CMS78 Don Peyote
+CMS79 Intensive Care
+CMS80 The Meat Business
+CMS81 Freefall
+CMS82 Saint Mark's Bistro
+CMS83 Misappropriation
+CMS84 High Noon
+CMS85 Madd Dogg
+CMS86 Architectural Espionage
+CMS87 Key To Her Heart
+CMS88 Dam And Blast
+CMS89 Cop Wheels
+CMS90 Up, Up and Away!
+CMS91 Breaking the Bank at Caligula's
+CMS92 A Home In The Hills
+CMS93 Vertical Bird
+CMS94 Home Coming
+CMS95 Cut Throat Business
+CMS96 Beat Down on B Dup
+CMS97 Grove 4 Life
+CMS98 Riot
+CMS99 Los Desperados
+CMS100 End Of The Line (1)
+CMS101 End Of The Line (2)
+CMS102 End Of The Line (3)
+
+####SUBMISSION_LIST####
+CSMS1 Video Game: They Crawled From Uranus
+CSMS2 Video Game: Dualuty
+CSMS3 Video Game: Go Go Space Monkey
+CSMS4 Video Game: Let's Get Ready To Bumble
+CSMS5 Video Game: Inside Track Betting
+CSMS6 Lowrider (Bet And Dance)
+CSMS7 Beefy Baron
+CSMS8 Arena Mission: Blood Ring
+CSMS9 Arena Mission: Kickstart
+CSMS10 Beat the Cock!
+CSMS11 Courier
+CSMS12 The Chiliad Challenge
+
+####VEHICLE_CATEGORIES####
+VECA0 Vehicle group
+VECA1 Sportcars
+VECA2 Bikes
+VECA3 Boats
+VECA4 Convertibles
+VECA5 Helicopters
+VECA6 Industrial
+VECA7 Lowriders
+VECA8 Miscellaneous
+VECA9 Offroad
+VECA10 Planes
+VECA11 Public services
+VECA12 Saloons
+VECA13 Station wagons
