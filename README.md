@@ -1,29 +1,25 @@
 # BC7MOD
-
 Trainer for Grand Theft Auto San Andreas
 
+This is BC7MOD version 5, a beta was released in august of 2013.
+The active development of this mod was stopped in 2013.
 
-This is the decompiled source code of the latest -not released- BC7MOD (version 5).
-Unfortunately the original source code with all the comments and segement explanation was lost, therefore a decompiled version is available.
+*The code is somewhat buggy and crashes can randomly occur.*
 
-The code is somewhat buggy and crashes can randomly occur.
-
-
-===Plugins===
-
-Requirements:
+## Plugins
+**Requirements**
 - IniFiles.cleo
 	Used for reading and writing to ini files.
 - GxtHook.cleo
 	Used for displaying text using the GXT file in the CLEO_TEXT directory.
-Optional:
+**Optional**
 - BC7ModExtra.cleo
-	Addition to the BC7MOD which fix the well known mouse bug on Windows Vista and above and and toggable option to skip the intro movies. Unfortunately the source code is also lost, however the use of this plugin is optional.
+	Addition to the BC7MOD which fix the well known mouse bug on Windows Vista and above and and toggable option to skip the intro movies. Unfortunately the source code is lost, however the use of this plugin is optional.
 
 IniFiles.cleo and GxtHook.cleo can be found in the CLEO SDK. 
 BC7ModExtra.cleo is included, but does not have to be used.
 
-===Contents===
+## Contents
 - bc7mod.txt
   CLEO_TEXT
 	- BC7MOD.fxt
@@ -31,9 +27,9 @@ BC7ModExtra.cleo is included, but does not have to be used.
 - Wearable.ini
 - BC7ModExtra.cleo
 
-Note: after first time use a BC7MOD_config.ini will be created in the CLEO root directory.
+*Note: after first time use a BC7MOD_config.ini will be created in the CLEO root directory.*
 
-===changelog===
+## changelog
 - Fully rewritten from scratch.
 - One easy to use menu structure design.
 - Change Hair (new)
@@ -57,3 +53,6 @@ Note: after first time use a BC7MOD_config.ini will be created in the CLEO root 
 - Vehicle menu is integrated in the main mod menu (modified)
 - Vehicle customisation options are now divided into more logic categories. (modified)
 - Some functions that where barely used are removed (removed)
+
+## License
+The code is available under the GNU V3 license.
